@@ -38,10 +38,10 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1>Week 2</h1>
-                            <h2 class="subheading">1st meeting with client and understanding of the project</h2>
+                            <h1>Week 14</h1>
+                            <h2 class="subheading">Bug fixing</h2>
                             <span class="meta">
-                                Posted on October 24, 2021
+                                Posted on January 10, 2022
                             </span>
                         </div>
                     </div>
@@ -53,45 +53,23 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>We met our client via Zoom and were introduced to the background and initiatives of our project.</p>
-                        <h2>Understanding our project</h2>
-                        <p>After our meeting with the client, we were provided with a Trello board that stored information about other previously completed projects that were related to ours.</p>
                         <h2>
-                            What we know about our project so far
+                            Issues:
                         </h2>
                         <p>
-                            The Trello board was loaded with plenty of information about the related projects, but not so much about our own project.
-                        </p>
-                        <h3>
-                            Background
-                        </h3>
-                        <li>
-                            Our project is about adding functionality to an existing web application. The web app mainly gathers text and voice recordings from patients in the UK and generates a *word cloud* for further analysis.
-                        </li>
-                        <li>
-                            We began researching about word clouds and natural language processing to get a better gist about the context of our project. These resources can be found in our research page.
-                        </li>
-                        <h3>
-                            Ultimate goal of the web application
-                        </h3>
-                        <p>
-                            To allow users to analyse the text and voice recordings through generating word clouds and Ngrams.
-                        </p>
-                        <h3>
-                            State of the current web application
-                        </h3>
-                        <p>
-                            The current web application only supports the generation of a word cloud and has a lot of bug issues
+                            We found a bug with the ibm token. As we were trying to use a token and the API was not being accepted.
                         </p>
                         <p>
-                            Our goal is to add a feature to allow for the creation of meaningul ngrams
+                            The issue of not being able to setup the environment still effects one of us. 
                         </p>
-
                         <h2>
-                            Who are the users?
+                            Solutions:
                         </h2>
                         <p>
-                            NHS researcher will use the web app to upload and analyse the text and voice recordings
+                            The bug with the ibm token was cause by the IBM token url bring hardcoded which meant that only one specific token could be used
+                        </p>
+                        <p>
+                            The enviornment issue was cause by a lack of requirements file in the initial github which meant that a new one was created which used different versions of the libraries causing conflicts.
                         </p>
                     </div>
                 </div>
@@ -102,32 +80,6 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
                         <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
                     </div>
                 </div>
